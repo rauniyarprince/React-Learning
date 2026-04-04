@@ -1,3 +1,7 @@
+@import "tailwindcss";
+
+
+/* optional */
 *{
   margin: auto;
   box-sizing: border-box;

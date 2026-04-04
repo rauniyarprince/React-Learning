@@ -9,13 +9,16 @@ import { createRoot } from 'react-dom/client'
 // Importing global CSS styles for the project.
 // This file usually contains styles that apply to the entire app.
 import './index.css'
+import './App.css'
 
 // Importing the main App component, which is the root component of the React application.
 import App from './App.jsx'
 
+
 // Selecting the HTML element with id 'root' and creating a React root.
 // This connects React to the actual HTML page.
 createRoot(document.getElementById('root')).render(
+
   
   // Wrapping the App component with StrictMode for extra checks and warnings in development.
   <StrictMode>

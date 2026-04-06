@@ -1,21 +1,22 @@
 import './App.css'
-import Cards from './Component/Cards';
-import Counter from './Component/Counter';
-import Counter5 from './Component/Counter5';
-import Navbar from "./Component/Navbar";
 import Tailwindex from './Component/Tailwindex';
+import Navbar from './Component/Navbar';
+import Counter from './Component/Counter';
+import Cards from './Component/Cards';
 
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Counter/> */}
-      {/* <Counter5/> */}
-      { <Tailwindex/> }
-      {/* <Cards username='Pranshu Coder' Designation='Frontend Dev' />
-      <Cards username='Deepak coder' Designation='Backend Dev' />
-      <Cards /> */}
+    <Navbar/>
+    {/* <Counter/> */}
+    <Cards/>
+     <Cards username ='Prince Rauniyar' Designation='software Developer'/>
+      <Cards username ='Kartik Dubey' Designation='Frontend Developer'/>
+       <Cards username ='Pranshu Verma' Designation='Backend Developer'/>
+        <Cards/>
+        {/* <Tailwindex/> */}
+        
     </>
   )
 }

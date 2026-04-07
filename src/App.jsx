@@ -1,22 +1,12 @@
 import './App.css'
-import Tailwindex from './Component/Tailwindex';
-import Navbar from './Component/Navbar';
-import Counter from './Component/Counter';
-import Cards from './Component/Cards';
-
+import PropsDestruct from './Component/PropsDestruct';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    {/* <Counter/> */}
-    <Cards/>
-     <Cards username ='Prince Rauniyar' Designation='software Developer'/>
-      <Cards username ='Kartik Dubey' Designation='Frontend Developer'/>
-       <Cards username ='Pranshu Verma' Designation='Backend Developer'/>
-        <Cards/>
-        {/* <Tailwindex/> */}
-        
+      <PropsDestruct name="Ananya " role="Frontend Developer" />
+      <PropsDestruct name="Kartik " role="Backend Developer" />
+      <PropsDestruct name="Pranshu " role="JavaFullstack Developer" />
     </>
   )
 }

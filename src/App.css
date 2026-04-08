@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+/* optional */
+*{
+  margin: auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* .navbar{
+  background-color: aliceblue;
+  display:flex;
+  width: 100vw;
+  height: 10vw;
+}
+body{
+  background-color: #212121;
+}
+  
+  #heading{
+  color: aqua;
+} */

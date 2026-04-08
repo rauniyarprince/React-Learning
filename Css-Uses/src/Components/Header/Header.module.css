@@ -1,0 +1,9 @@
+.header{
+  background: #ff0606;
+  text-decoration: dashed;
+  text-align: center;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  border-radius: 30px;
+}

@@ -108,6 +108,8 @@ function App() {
   ];
   
   return (
+    <>
+    <h1 className='heading'>Card Project</h1>
     <div className='parent'>
       {jobOpenings.map(function (elem, idx) {
         return <div key={idx}> /* for making unique id for card */
@@ -115,6 +117,7 @@ function App() {
         </div>
       })}
     </div>
+    </>
   )
 }
 

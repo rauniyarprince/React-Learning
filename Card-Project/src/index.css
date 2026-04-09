@@ -19,6 +19,11 @@ body {
   gap: 30px;
   flex-wrap: wrap;
 }
+.heading{
+  background: pink;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .card{
   height: 330px;

@@ -2,7 +2,7 @@
 
 const Section2 = () => {
   return (
-    <div className='h-screen w-full bg-blue-900'></div>
+    <div className='h-screen w-full bg-gray-200'></div>
   )
 }
 

@@ -1,0 +1,15 @@
+button{
+  margin: 10px;
+  background:pink;
+  border-radius: 50px;
+}
+input{
+  margin-left: 10px;
+  background: #ece9e9;
+}
+.box{
+  margin-top: 10px;
+width: 200px;
+height: 200px;
+background: #ff0000;
+}

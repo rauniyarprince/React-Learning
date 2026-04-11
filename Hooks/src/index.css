@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.container{
+background: #fffb04;
+width: 50vh;
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.btn{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+button{
+  background: red;
+  
+}
+

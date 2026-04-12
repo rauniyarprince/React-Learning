@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
 
-  function submithandler(e) {
+  const submithandler = (e) => {
     e.preventDefault();
     console.log("form submitted");
   }

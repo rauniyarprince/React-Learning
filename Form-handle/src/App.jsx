@@ -1,14 +1,12 @@
 import './App.css'
-import Form from './Form'
-import LoginForm from './Form'
-import FormHandle from './FormHandle'
+import TwoWayBinding from './TwoWayBinding'
 
 function App() {
 
 
   return (
    <>
-  <Form/>
+<TwoWayBinding/>
     </>
   )
 }

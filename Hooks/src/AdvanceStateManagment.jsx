@@ -1,52 +1,54 @@
 import React, { useState } from 'react'
-
 const AdvanceStateManagment = () => {
+  // Object state: stores user and age
+  const [num, setnum] = useState({ user: "prince", age: "20" })
 
-  const [num,setnum] = useState({user:"prince" ,age: "20"})
+  // Array state: stores list of numbers
+  const [array, setarray] = useState([4, 8, 9, 6])
+  // Object state update using immutability
+  function func() {
 
-  const [array,setarray] = useState([4,8,9,6])
-  
+    // Create a copy of state (do not mutate original state directly)
+    const newnum = { ...num };
 
-  function func(){
-  const newnum = {...num};
-  //set newnum(prev => ({...prev,age:50}))
-  newnum.user = "kartik"
-  newnum.age = 50
-  setnum(newnum)
+    // Update values in copied object
+    newnum.user = "kartik"
+    newnum.age = 50
+
+    setnum(newnum)
   }
 
-  function arry(){
+  function arry() {
     const newarray = [...array]
-
-    newarray.push(523)
+    newarray.push(5,2,3,82)
+    // Set updated array as new state
     setarray(newarray)
   }
   return (
-    <>
-    <h1>{num.user},{num.age}</h1><br/>
-     <h1>{array}</h1>
-    <button onClick={func}>click me</button>
-    <button onClick={arry}>click me 2 </button>
-    </>
-  )
-}
+    <div className='min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center gap-6'>
+      <div className='bg-gray-800 p-6 rounded-xl shadow-lg text-center w-72'>
+        <h1 className='text-xl font-bold mb-2'>User Info</h1>
+        <p className='text-lg'>{num.user}, {num.age}</p>
+      </div>
+    
+      <div className='bg-gray-800 p-6 rounded-xl shadow-lg text-center w-72'>
+        <h1 className='text-xl font-bold mb-2'>Array Data</h1>
+        <p className='text-sm break-words'>{array.join(", ")}</p>
+      </div>
 
+      {/* Action buttons */}
+      <div className='flex gap-4'>
+        <button 
+          onClick={func}
+          className='bg-blue-500 px-5 py-2 rounded-lg hover:bg-blue-600 active:scale-95 transition'>
+          Update Object
+        </button>
+
+        <button 
+          onClick={arry}
+          className='bg-green-500 px-5 py-2 rounded-lg hover:bg-green-600 active:scale-95 transition'>
+          Update Array
+        </button>
+      </div>
+    </div> )}
 export default AdvanceStateManagment
-
-
-
-/* batch update
-set newnum(prev => (count + 1)
-set newnum(prev => (count + 1)
-set newnum(prev => (count + 1)
-set newnum(prev => (count + 1)
-// update with 3,9,12
-
-
-
-
-
-
-
-
-*/

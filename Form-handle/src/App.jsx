@@ -1,4 +1,5 @@
 import './App.css'
+import Practise from './practise'
 import TwoWayBinding from './TwoWayBinding'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
    <>
-<TwoWayBinding/>
+<Practise/>
     </>
   )
 }

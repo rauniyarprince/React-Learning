@@ -26,7 +26,7 @@ const Notes = () => {
 
   return (
     <>
-      {/* ✅ NAVBAR */}
+     
       <nav className='w-full bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-md'>
         <h1 className='text-xl font-bold'>PrinceCodes</h1>
         <p className='text-sm text-gray-400'>Notes App</p>
@@ -87,7 +87,7 @@ bg-cover text-black pt-6 pb-4 px-4'>
         </div>
       </div>
 
-      {/* ✅ FOOTER */}
+  
       <footer className='w-full bg-gray-900 text-gray-400 text-center py-3'>
         © 2026 PrinceCodes | All Rights Reserved
       </footer>

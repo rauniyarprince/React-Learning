@@ -1,6 +1,9 @@
-
 import './App.css'
-import Axioos from './Axioos'
+import FetchDelete from './FetchDelete'
+import FetchPATCH from './FetchPATCH'
+import FetchPUT from './FetchPUT'
+
+
 
 function App() {
 
@@ -8,7 +11,13 @@ function App() {
     <>
     {/* <FetchAPI/> */}
     {/* <AxiosAPI/> */}
-    <Axioos/>
+    {/* <Axioos/> */}
+    {/* <Axios3/> */}
+    {/* <Fetchpost/> */}
+    {/* <FetchPUT/> */}
+    {/* <FetchPATCH/> */}
+    <FetchDelete/>
+
   
     
     

@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  color: white;
+  box-sizing: border-box;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: black;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgb(14, 146, 153);
+}
+
+.nav div{
+  display: flex;
+  align-items: center;
+  gap:40px;
+
+}
+a{
+ text-decoration: none;
+ font-weight: 900;
+}
+
+h1{
+  padding: 40px;
+  font-size: 120px;
+}

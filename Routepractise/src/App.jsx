@@ -10,6 +10,8 @@ import NotFound from './pages/NotFound'
 import Men from './component/Men'
 import Women from './component/Women'
 import Kids from './component/Kids'
+import Courses from './pages/Courses'
+import CoursesDetails from './pages/CoursesDetails'
 
 function App() {
 
@@ -23,10 +25,12 @@ function App() {
     <Route path = "Men" element={<Men/>}></Route>
   <Route path='Women' element={<Women/>}></Route>
   <Route path='Kids' element={<Kids/>}></Route>
-  
-  </Route>
+  </Route>  {/* nested routingg created */}
 
   <Route path ='/Contact' element={< Contact/>}></Route>
+  <Route path ='/Courses/:id' element={< CoursesDetails/>}></Route> {/* dynamic routing created */}
+
+  <Route path ='/Courses' element={< Courses/>}></Route>
   <Route path ='*' element={<NotFound/>}></Route>
 
 

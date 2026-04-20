@@ -17,7 +17,7 @@ const FormHandle = () => {
     <input className='bg-amber-100 border-2 '   type ="text" name= "name" placeholder='Enter your email'/>
     <label>Password:</label>
     <input className='bg-amber-100 border-2 '   type ="text" name= "password" placeholder='Enter your password'/>
-   <button className='m-10 ml-20 bg-red-600 rounded-2xl p-1 border-1' onClick={event}>Submit</button>
+   <button className='m-10 ml-20 bg-red-600 rounded-2xl p-1 border-2' onClick={event}>Submit</button>
     </form>
   </div>
     </>

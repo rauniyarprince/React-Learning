@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 
 const TwoWayBinding = () => {
   const [name, setname] = useState(" ")
-
-
   return (
     <>
     <form onSubmit={(e)=>{
@@ -11,8 +9,6 @@ const TwoWayBinding = () => {
       console.log("submitted By",name)
 
       setname(' ')
-
-
     }}>
     <label htmlFor='name'>Name: </label>
     <input

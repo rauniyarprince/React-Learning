@@ -19,15 +19,6 @@ const Practise = () => {
         <button>submit</button>
       </form>
 
-
-
-
-
-
-
-
-
-
     </>
   )
 }

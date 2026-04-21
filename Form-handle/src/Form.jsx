@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Form = () => {
 
   const submithandler = (e) => {
@@ -10,13 +9,9 @@ const Form = () => {
   return (
     <>
       <div className="flex justify-center items-center h-screen bg-gray-100">
-        
         <div className='bg-white p-10 rounded-2xl shadow-lg w-[400px]'>
-
           <p className='text-center font-bold mb-6 text-2xl'>Login</p>
-
           <form onSubmit={submithandler} className="flex flex-col gap-4">
-
             <div>
               <label className="block mb-1">Name</label>
               <input 
@@ -25,7 +20,6 @@ const Form = () => {
                 className="w-full border p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
             </div>
-
             <div>
               <label className="block mb-1">Email</label>
               <input 
@@ -50,13 +44,10 @@ const Form = () => {
             >
               Submit
             </button>
-
           </form>
-
         </div>
       </div>
     </>
   )
 }
-
 export default Form

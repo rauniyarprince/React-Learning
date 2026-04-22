@@ -1,12 +1,6 @@
-import React, { createContext } from 'react'
+import { createContext } from "react";
 
-const Context = () => {
+// create context (IMPORTANT: outside)
+const Context = createContext();
 
-  const Context = createContext()
-
-  return (
-    <div>Context</div>
-  )
-}
-
-export default Context
+export default Context;

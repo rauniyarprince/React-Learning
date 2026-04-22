@@ -2,7 +2,8 @@ import React, { createContext } from 'react'
 
 
 
- export const  ThemeDataContext = createContext()// create context
+export const  ThemeDataContext = createContext()// create context
+
 const Themecontext = (props) => {
 
 

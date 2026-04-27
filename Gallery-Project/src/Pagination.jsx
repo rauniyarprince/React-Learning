@@ -39,7 +39,7 @@ const Pagination = () => {
                 alt="" 
               />
 
-              {/* 🔥 Overlay */}
+              {/* Overlay */}
               <div className='absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center'>
                 <span className='bg-white text-black px-3 py-1 text-sm rounded'>
                   View Image

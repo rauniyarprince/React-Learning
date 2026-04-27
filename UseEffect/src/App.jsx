@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    {/* <Useeffectex/> */}
+    <Useeffectex/>
     <Exuseeffect/>
     </>
   )

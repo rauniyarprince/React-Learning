@@ -2,11 +2,8 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 
 const Exuseeffect = () => {
-
-
   const [a, seta] = useState(0)
   const [b, setb] = useState(0)
-
 
   useEffect(() => { 
     aChanging()
@@ -20,7 +17,6 @@ const Exuseeffect = () => {
    },[b]
 )
   
-
       function aChanging(){
       console.log('A ki value change ho gai')
     }
@@ -28,12 +24,6 @@ const Exuseeffect = () => {
         function bChanging(){
       console.log('A ki value change ho gai')
     }
-
-
-
-
-
-
   return (
     <>
 

@@ -5,10 +5,6 @@ const Greeting = () => {
     <div>
 <h1>Hello</h1>
 <h3>My Name is Prince</h3>
-
-
-
-
     </div>
   )
 }

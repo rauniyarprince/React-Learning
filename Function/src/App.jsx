@@ -22,6 +22,7 @@ const btnclicked = () => {
 type= "text" placeholder ="Enter Name" />
 
 <div className='box' onMouseMove={() => console.log("Mouse move on the box")}>
+  
 </div>
 </>
   )
